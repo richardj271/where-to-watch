@@ -1,0 +1,10 @@
+{
+  "name": "where-to-watch-devcontainer",
+  "image": "docker.io/library/ubuntu:latest",
+  "features": {
+    "ghcr.io/devcontainers/features/python:1": {
+      "version": "3.12"
+    }
+  },
+  "postCreateCommand": "pip install --user -r requirements.txt"
+}
