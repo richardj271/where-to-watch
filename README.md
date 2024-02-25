@@ -1,6 +1,9 @@
 # where-to-watch
 Look up films in Trakt watchlist on JustWatch to find which streaming service they're available on and store using Baserow.
 
+> [!CAUTION]
+> This is very much a work in progress
+
 ## Baserow
 
 * You'll need a Baserow account
