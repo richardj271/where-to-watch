@@ -32,8 +32,15 @@ Look up films in Trakt watchlist on JustWatch to find which streaming service th
 
 * You'll need a Trakt account
 * Create an app in Settings > You API Apps
+
 <!-- TODO: Need instructions for setting up Trakt api app -->
 <!-- TODO: Need instructions for getting user ID esp. the dots being dashes etc. -->
 
-Consider using python-dotenv
-Create table from scratch: https://baserow.io/docs/apis%2Frest-api, https://api.baserow.io/api/redoc/#tag/Database-tables/operation/create_database_table
+## Roadmap
+
+* Make Flatrate and Rent columns multiselect rather than strings with comma seperated values
+* Add Rotten Tomatoes scores and links
+* Add imdb links
+* Add cover (picture) for each
+* Consider using python-dotenv
+* Create table from scratch: https://baserow.io/docs/apis%2Frest-api, https://api.baserow.io/api/redoc/#tag/Database-tables/operation/create_database_table
